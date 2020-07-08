@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.hidden{ 
+    display: none !important;
+}
+
+
+.winner{ 
+    font-size: 36px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 80vh;
+    width: 100vw;
+    letter-spacing: 5px;
+}
+.start{
+    font-size: 36px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 80vh;
+    width: 100vw;
+    letter-spacing: 5px;
+}
+
+a{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    color: wheat;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid wheat;
+}
